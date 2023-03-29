@@ -1,0 +1,70 @@
+.parent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    width: 100%;
+    background-image: url(./images/weather3.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+.start{
+    display: inline-block;
+}
+.weatherinp{
+    height: 400px;
+    width: 380px;
+    /* background-color: aliceblue; */
+    background-image: url(./images/weather6.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+#searchsign{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 7px;
+}
+#searchbut{
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgba(138, 138, 231, 0.705);
+    position: relative;
+    right: 16px;
+}
+#inp{
+    margin: 20px;
+    height: 35px;
+    width: 140px;
+    border-radius: 18px;
+    background-color: beige;
+    font-size: 17px;
+    text-align: center;
+}
+
+#location{
+    font-size: 35px;
+    position: relative;
+    top: 85px;
+}
+
+#celcius{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+}
+#minmax{
+    font-size: 17px;
+    font-weight: bold;
+}
+.par{
+    font-size: 25px;
+    font-weight: bold;
+}
